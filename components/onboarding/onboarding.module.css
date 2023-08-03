@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3E5AB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.aryaBtn {
+    position: absolute;
+    top: 19.8rem;
+    align-self: center;
+    background-color: #CBCBFF;
+    color: #69235B;
+    border: none;
+    font-size: 1rem;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
+
+.home {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    transform: scale(3);
+}
+
+.home:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.appContainer {
+    background-color: #69235B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    transform: scale(0.9);
+}
+
+.text {
+    margin: 2rem;
+}
+
+.headText {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: bold;
+    color: #FFFFFF;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.headText span {
+    color: #FFD746;
+}
+
+.subText {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    size: 1rem;
+}
+
+.subText span {
+    color: #FBBC04;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.socials:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.button button {
+    background-color: #FFC746;
+    border: none;
+    color: #69235B;
+    border-radius: 0.8rem;
+    height: 3.5rem;
+    width: 21rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.button button:hover {
+    background-color: #FFD746;
+    cursor: pointer;
+}
+
+.finalText {
+    color: #FFFFFF;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.finalText span {
+    color: #FBBC04;
+}

@@ -1,0 +1,71 @@
+/* Home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #69235B;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    color: #FFC746;
+    size: 1.5rem;
+    align-self: center;
+}
+
+.h2 {
+    color: #FFFFFF;
+    size: 1.2rem;
+    align-self: center;
+}
+
+.ul 
+{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.li a {
+    text-decoration: none;
+    color: #FFC746;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+.li a:hover {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+/* media queries to make the home page responsive to multiple screens */
+
+@media only screen and (max-width: 915px) {
+    .h2, .h1 {
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .ul
+    {
+        flex-direction: column;
+        gap: 1rem; 
+        padding: 0 3rem; 
+    }
+}

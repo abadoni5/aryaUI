@@ -1,0 +1,46 @@
+.container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3E5AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    transform: scale(3);
+}
+
+.home:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.appContainer {
+    height: 812px;
+    width: 375px;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.9);
+}
+
+.text {
+    color: #69235B;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 6rem;
+}
